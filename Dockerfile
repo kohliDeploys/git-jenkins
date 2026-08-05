@@ -1,2 +1,2 @@
 FROM nginx:latest
-RUN apt-get update -y
+COPY app.js index.html style.css /usr/share/nginx/html/
